@@ -8,7 +8,10 @@ this is the tailwind practice i made for myself
 >>
 >>then install ```tailwind css``` and it's peer dependencies and and then run init command to generate both
 >>```tailwind.config.js``` and the ```postcss.config.js```
->>>npm install -D tailwindcss postcss autoprefixer
->>>npx tailwindcss init -p
-# hii chuchu 🤡🤡🤡
-
+>>>```npm install -D tailwindcss postcss autoprefixer```
+>>>```npx tailwindcss init -p```
+>>and then do some changes to the tailwind.config.js , that is the config 
+>> file that youre going to change 
+>>> before : content:[]
+>>> after : content:["./src/**/*.{js,jsx,ts,tsx}",]
+>>and then we do the 
