@@ -10,4 +10,5 @@ this is the tailwind practice i made for myself
 >>```tailwind.config.js``` and the ```postcss.config.js```
 >>>npm install -D tailwindcss postcss autoprefixer
 >>>npx tailwindcss init -p
->>
+# hii chuchu 🤡🤡🤡
+
