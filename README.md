@@ -14,4 +14,9 @@ this is the tailwind practice i made for myself
 >> file that youre going to change 
 >>> before : content:[]
 >>> after : content:["./src/**/*.{js,jsx,ts,tsx}",]
->>and then we do the 
+>>and then we do the changes to the ./src/index files basically remove everything and add the 3 things that arte right here
+>>>```@tailwind base;```
+>>>```@tailwind components;```
+>>>```@tailwind utilities;```
+>>and thats almost it , now in the terminal -> ```npm run start```
+>>once this is done and success is found , please 
