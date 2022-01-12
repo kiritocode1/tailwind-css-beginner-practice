@@ -1,0 +1,23 @@
+what we need 
+
+
+Book my show 
+->need a reusable carousal 
+-> hero carousal 
+-> common carousal 
+-> cast and crew carousal (small & round)
+
+
+pages 
+->home page 
+->movies page 
+->categories page 
+
+Razorpay payement gateway.
+
+
+building(how are we going to build)
+->layouts
+->Routes 
+->pages 
+->components
