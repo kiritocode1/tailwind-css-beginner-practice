@@ -6,6 +6,7 @@ const DefaultHOC = ({ element, ...HOCprops }) => {
     const Element = element;
     return (
         <>
+        <h1>def hoc is superb</h1>
             <Route
                 {...HOCprops}
                 element={(props) => (

@@ -8,7 +8,10 @@
 import React from 'react';
 const DefaultLayout = (props) => { 
     return (
-        <div className='bg-black-500 w-92'><h1 className='text-xl bg-green-500 transition-all hover:text-sm hover:bg-red-500'>default layout page is ready to perform and is imported in app</h1>{ props.children}</div>
+        <div className='bg-black-500 w-92'>
+            <h1 className='text-xl bg-green-500 transition-all hover:text-sm hover:bg-red-500'>default layout page is ready to perform and is imported in app</h1>
+            {props.children}
+        </div>
 );
 }
 export default DefaultLayout;
