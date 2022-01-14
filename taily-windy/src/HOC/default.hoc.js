@@ -17,3 +17,4 @@ const DefaultHOC = ({ element, ...HOCprops }) => {
         </>
     );
 }
+export default DefaultHOC;

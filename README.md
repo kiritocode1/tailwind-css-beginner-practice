@@ -47,7 +47,7 @@ this is the tailwind practice i made for myself
 
 >thing with the changes to the app.js lol . 
 ---
-**TO UNDERSTAND THE WORKFLOW FOLLOW THIS ROUTE .**
+**TO UNDERSTAND THE WORK-FLOW FOLLOW THIS ROUTE .**
 
 > the outer layer is same but all the inner things change , this is intentional bacause the same layout takes less time to render and thus is better optimization .this approach is called the ```layout first approach``` .this works really well and thus we need to cover a few things -> 
 
@@ -60,3 +60,6 @@ this is the tailwind practice i made for myself
 >default layout rendered in a new folder inside [src](./taily-windy/src) called layouts.
 >after downloading react-router-dom  add the browserRouter inside the index.js  to make sure that we are free of fuss by adding the browserRouter outside the browserRouter. check the index.js for more details 
 >after this we need to open the api development of the react-router dom that changed , the ones with the router and the routes . this is really mesy and i was not able to do this really well .
+>dealt with the problem we make DEFAULT HOC inside the [src](./taily-windy/src) and then make a new default.HOC.js in this process make the biggest cover we needed to make . this is the layout 
+
+# default layout -> default HOC -> app.js -> index.js -> rendered .  and this is how we have made tailwind-css work . 
