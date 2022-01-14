@@ -1,12 +1,17 @@
-// this is the default layout that is rendered
+// // this is the default layout that is rendered
+// import React from 'react';
+
+
+// function hardwork() {
+//     return (<div className='bg-green-50 justify-evenly flex '> <h1>successnight</h1>
+//     <h2 className='bg-red-50 text-xl'>this is an eg</h2></div>);
+// }
+
+// export default hardwork;
 import React from 'react';
-
-
-function name() {
-return <h1>hello</h1>
+const DefaultLayout = () => { 
+    return (
+        <h1>default layout page is ready to perform and is imported in app</h1>
+    );
 }
-function name2() { 
-return <h1>hello there moviepage</h1>
-}
-
-export default  {name , name2};
+export default DefaultLayout;

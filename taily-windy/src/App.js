@@ -2,8 +2,8 @@
 // import './App.css';
 
 //! added this , check the readme for more details 
-import {Route} from 'react-router-dom';
-// import { name,name2} from './layouts/default.layout.js'
+import { Route } from 'react-router-dom';
+import DefaultLayout from './layouts/default.layout';
 function name() {
   return <h1 className='bg-red-50 capitalize'>hello</h1>
 }
@@ -16,7 +16,8 @@ function App() {
     <>
     
       <Route path="/" exact  component={name} />
-      <Route path="/m" exact component={name2}/>
+      <Route path="/m" exact component={name2} />
+      <Route path="/def" exact component={DefaultLayout}/>
     </>
   );
 }
