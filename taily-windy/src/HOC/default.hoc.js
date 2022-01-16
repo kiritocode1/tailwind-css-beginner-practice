@@ -1,21 +1,31 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import DefaultLayout from "../layouts/default.layout";
+import DefaultLayout from "../layouts/default.layout.js";
 
-const DefaultHOC = ({ element, ...HOCprops }) => { 
+
+
+
+
+const DefaultHOC = ({ element, ...HOCprops }) => {
     const Element = element;
+    // const Element = (elementy, ...funcprops) => {
+    //     const mine = element;
+    //     return <elementy {...funcprops}/>;
+    // };
     return (
         <>
-        <h1>def hoc is superb</h1>
             <Route
                 {...HOCprops}
-                element={(props) => (
-                    <DefaultLayout>
-                        <Element {...props}/>
-                    </DefaultLayout>
-                )}
+                element={(props) => {
+                    return (
+                        // <DefaultLayout component={Element(mine,...props)}/>
+                        <DefaultLayout>
+                            <Element {...props} />
+                        </DefaultLayout>
+                    );
+                }}
             />
         </>
     );
-}
+};
 export default DefaultHOC;
