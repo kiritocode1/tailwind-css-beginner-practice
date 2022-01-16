@@ -1,10 +1,9 @@
 import React from 'react';
+import Navbar from '../components/navbar';
 const DefaultLayout = (props) => {
     return (
         <>
-            {/* it wont show until this starts . */}
-            <h1>default layout</h1>
-            {/* {props.components} */}
+            <Navbar/>
             {props.children}
         </>
     );
