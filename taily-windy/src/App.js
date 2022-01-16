@@ -11,7 +11,7 @@ function App() {
     <>
       {/* <DefaultLayout path="/" component={temp}/> */}
       {/* <DefaultHOC path="/" component={NavSm} /> */}
-      <DefaultHOC path="/" component={temp} />
+      {/* <DefaultHOC path="/" component={temp} /> */}
       <DefaultHOC path="/" component={Navbar}/>
     </>
   );
