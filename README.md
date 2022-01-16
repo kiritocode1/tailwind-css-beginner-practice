@@ -63,3 +63,7 @@ this is the tailwind practice i made for myself
 >dealt with the problem we make DEFAULT HOC inside the [src](./taily-windy/src) and then make a new default.HOC.js in this process make the biggest cover we needed to make . this is the layout 
 
 # default layout -> default HOC -> app.js -> index.js -> rendered .  and this is how we have made tailwind-css work . 
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
