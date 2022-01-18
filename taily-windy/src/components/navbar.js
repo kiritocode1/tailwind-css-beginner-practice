@@ -1,6 +1,9 @@
 import React from "react";
 import {BiChevronRight} from "react-icons/bi";
-import {IoSearchOutline} from "react-icons/io5"
+import { IoSearchOutline } from "react-icons/io5";
+import bookmyshow from "./bookmyshow-removebg-preview.png";
+import { FaSortDown,FaBars } from "react-icons/fa";
+
 const NavSm = () => {
     return (<>
         
@@ -31,13 +34,25 @@ const NavMd = () => {
 const NavLg = () => {
     return (
         <>
-        lg screen
+        <div className="bg-gray-800 flex w-full text-slate-50 items-center justify-between py-2 px-20 h-20" >
+            <div className="bg-inherit flex items-center">
+                    <img src={bookmyshow} alt="not successful" className="bg-inherit w-40 h-20 mr-2" />
+                    <span className="flex  bg-white rounded-sm">
+                    <IoSearchOutline className="bg-white text-slate-500 h-10 w-10 py-2 rounded-full ml-1 " />
+                    <input placeholder="Search for Movies , shows , events , plays🎭 , Sports ⚽ and much more " type="search" className="h-10 w-[600px] px-6 rounded-sm"/>
+                    </span>
+                </div>
+                <div className="bg-inherit flex gap-2 items-center">
+                    <h6 className="text-md bold flex gap-1 text-slate-100">Mumbai<FaSortDown/></h6>
+                    <button className="bg-[#F84464] hover:bg-fuchsia-900 w-20  h-8  text-sm rounded-lg font-bold">Sign in</button>
+                    <FaBars className="w-10 h-6"/>
+                </div>
+        </div>
         </>
     );
 };
 
 const Navbar = () => {
-
     return (
         <>
         <nav>
