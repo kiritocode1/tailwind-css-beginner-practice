@@ -35,16 +35,16 @@ const NavLg = () => {
         <>
         <div className="bg-gray-800 flex w-full text-slate-50 items-center justify-between py-2 px-20 h-20" >
             <div className="bg-inherit flex items-center">
-                    <img src={bookmyshow} alt="not successful" className="bg-inherit w-40 h-20 mr-2" />
+                    <img src={bookmyshow} alt="not successful" className="bg-inherit w-40 h-20 mr-2 cursor-grab" />
                     <span className="flex  bg-white rounded-sm">
                     <IoSearchOutline className="bg-white text-slate-500 h-10 w-10 py-2 rounded-full ml-1 " />
                     <input placeholder="Search for Movies , shows , events , plays🎭 , Sports ⚽ and much more " type="search" className="h-10 w-[600px] px-6 rounded-sm"/>
                     </span>
                 </div>
                 <div className="bg-invisible flex gap-2 items-center">
-                    <h6 className="text-md bold bg-inherit flex gap-1 text-slate-100">Mumbai<FaSortDown/></h6>
-                    <button className="bg-[#F84464] hover:bg-fuchsia-900 w-20  h-8  text-sm rounded-lg font-bold">Sign in</button>
-                    <FaBars className="w-10 h-6"/>
+                    <h6 className="text-md bold bg-inherit flex gap-1 text-slate-100 hover:animate-pulse  cursor-pointer hover:underline hover:decoration-sky-500">Mumbai<FaSortDown/></h6>
+                    <button className="bg-[#F84464]  w-20  h-8  text-sm rounded-lg font-bold cursor-pointer ">Sign in</button>
+                    <FaBars className="w-10 h-6 cursor-pointer"/>
                 </div>
             </div>
         </>
