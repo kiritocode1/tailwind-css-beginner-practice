@@ -2,7 +2,6 @@ import React from "react";
 import EntertainmentSlider from "../entertainment-component/entertainment-component";
 import Navbar from "../navbar";
 import HeroCarousel from "../hero.carousal/hero.carousal-component";
-
 const HomePage = () => { 
 
     return (<>
@@ -10,7 +9,7 @@ const HomePage = () => {
         <div className="container">
             <Navbar />
             <HeroCarousel />
-            <h1 className="bold pt-20 flex items-center justify-center">The Best Of Entertainment</h1>
+            <h1 className="font-bold text-2xl pt-20 flex items-center px-2 text-sky-900">The Best Of Entertainment</h1>
             <EntertainmentSlider />
         </div>
     </>);

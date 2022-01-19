@@ -27,10 +27,9 @@ const NavMd = () => {
                 <IoSearchOutline className="bg-white text-slate-500 h-8 w-8  rounded-lg ml-1 pl-3"/>
                     <input placeholder="Search for Movies , shows , events , plays🎭 , Sports ⚽ and much more " type="search" className="w-full italic focus:border-blue-500 rounded-sm text-black h-[35px] pl-5 pb-[3px]" required/>
                 </div>
-        </div>
+            </div>
         </>
     )};
-
 const NavLg = () => {
     return (
         <>
@@ -47,10 +46,11 @@ const NavLg = () => {
                     <button className="bg-[#F84464] hover:bg-fuchsia-900 w-20  h-8  text-sm rounded-lg font-bold">Sign in</button>
                     <FaBars className="w-10 h-6"/>
                 </div>
-        </div>
+            </div>
         </>
     );
 };
+
 
 const Navbar = () => {
     return (
