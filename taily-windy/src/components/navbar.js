@@ -42,8 +42,8 @@ const NavLg = () => {
                     <input placeholder="Search for Movies , shows , events , plays🎭 , Sports ⚽ and much more " type="search" className="h-10 w-[600px] px-6 rounded-sm"/>
                     </span>
                 </div>
-                <div className="bg-inherit flex gap-2 items-center">
-                    <h6 className="text-md bold flex gap-1 text-slate-100">Mumbai<FaSortDown/></h6>
+                <div className="bg-invisible flex gap-2 items-center">
+                    <h6 className="text-md bold bg-inherit flex gap-1 text-slate-100">Mumbai<FaSortDown/></h6>
                     <button className="bg-[#F84464] hover:bg-fuchsia-900 w-20  h-8  text-sm rounded-lg font-bold">Sign in</button>
                     <FaBars className="w-10 h-6"/>
                 </div>
