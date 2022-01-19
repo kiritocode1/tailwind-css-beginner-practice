@@ -23,7 +23,7 @@ const HeroCarousel = () => {
             <Slider {...settings}>
                 {images.map((image) => (
                     <div className="h-96 w-20 pt-6">
-                        <img src={image} alt="mage" className="rounded-sm w-full h-full px-4"/>
+                        <img src={image} alt="mage" className="rounded-sm w-full h-full px-4 object-cover"/>
                     </div>
                 ))}
             </Slider>
