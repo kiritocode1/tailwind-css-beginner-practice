@@ -5,7 +5,6 @@ import DefaultLayout from "../layouts/default.layout.js";
 
 
 
-
 const DefaultHOC = ({ element, ...HOCprops }) => {
     const Element = element;
     // const Element = (elementy, ...funcprops) => {
@@ -18,6 +17,7 @@ const DefaultHOC = ({ element, ...HOCprops }) => {
                 {...HOCprops}
                 element={(props) => {
                     return (
+                        
                         // <DefaultLayout component={Element(mine,...props)}/>
                         <DefaultLayout>
                             <Element {...props} />
