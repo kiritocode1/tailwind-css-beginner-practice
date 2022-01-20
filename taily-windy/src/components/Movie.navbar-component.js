@@ -1,5 +1,5 @@
 import React from "react";
-import {BiChevronRight, BiShareAlt} from "react-icons/bi";
+import { BiShareAlt} from "react-icons/bi";
 import { IoSearchOutline } from "react-icons/io5";
 import bookmyshow from "./bookmyshow-removebg-preview.png";
 import { FaSortDown,FaBars } from "react-icons/fa";
@@ -7,14 +7,14 @@ import { FaSortDown,FaBars } from "react-icons/fa";
 const NavSm = () => {
     return (<>
         
-        <div className="bg-gray-800 flex justify-between items-center w-full h-[67px] hover:rounded-b-sm border-b-4">
-            <div className=" flex-wrap text-slate-50 ">
-                <h3 className="text-[#ffffff] px-4 text-2xl font-semibold  hover:underline decoration-fuchsia-700 hover:animate-pulse">It All Starts Here!</h3>
-                <span className="text-xs flex text-[#a7a7a7]  px-4 justify-left items-center hover:underline decoration-indigo-500 hover:animate-pulse ">bhubhuneshwar<BiChevronRight className="mt-[4px]"/></span>
+        <div className="bg-slate-50 flex justify-between items-center w-full h-[67px] hover:rounded-b-sm border-b-4">
+            <div className="  flex flex-wrap text-slate-500">
+                <h3 className="text-[#000000] px-4 text-2xl font-semibold  hover:underline decoration-fuchsia-700 hover:animate-pulse ">It All Starts Here!</h3>
+                {/* <span className="text-xs flex text-[#a7a7a7]  px-4 justify-left items-center hover:underline decoration-indigo-500 hover:animate-pulse ">bhubhuneshwar<BiChevronRight className="mt-[4px]"/></span> */}
             </div>
             <div className="text-white flex justify-center items-center w-40">
-            <button className="bg-[#F84464] hover:bg-fuchsia-900 text-white mx-4 shadow-inner text-xs w-[62px] h-[32px] p-[5px]  font-semibold rounded-lg border-collapse">Use App</button>            
-            <div className="w-6 h-6"><BiShareAlt className="w-full h-full mr-10 "/></div>
+            {/* <button className="bg-[#F84464] hover:bg-fuchsia-900 text-white mx-4 shadow-inner text-xs w-[62px] h-[32px] p-[5px]  font-semibold rounded-lg border-collapse">Use App</button>             */}
+            <div className="w-6 h-6 text-black"><BiShareAlt className="w-full h-full mr-10 cursor-pointer "/></div>
             </div>
         </div>    
     </>);
