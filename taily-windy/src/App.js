@@ -5,7 +5,7 @@ import DefaultHOC from './HOC/default.hoc';
 // import Navbar from './components/navbar';
 // import HeroCarousel from './components/hero.carousal/hero.carousal-component';
 import HomePage from './components/Pages/home.Page';
-
+import Movie from './components/Pages/Movie.page';
 
 // import DefaultLayout from './layouts/default.layout';
 //? we use the fragments <></> because we need to return something inside a single entity , so fragments take less code and are used in this sense
@@ -18,7 +18,8 @@ function App() {
       {/* <DefaultHOC path="/" component={temp} /> */}
       {/* <DefaultHOC path="/" component={Navbar} /> */}
       {/* <DefaultHOC path="/" component={temp}/> */}
-      <DefaultHOC path="/" component={HomePage}/>
+      <DefaultHOC path="/" component={HomePage} />
+      <DefaultHOC path="/movie" component={Movie}/>
     </>
   );
 }
