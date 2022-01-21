@@ -27,7 +27,7 @@ const HomePage = () => {
         </div>
         <div  className="container px-20 bg-bms-700/[3] p-6 w-full">
             <div >
-                <img src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-rupay-banner-web-collection-202104230555.png" alt="premier-rupay image"  className="w-full h-full px-4"/>
+                <img src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-rupay-banner-web-collection-202104230555.png" alt="premier-rupay i"  className="w-full h-full px-4  "/>
             </div>
             <div>
                 <Premier isDark="true"/>
