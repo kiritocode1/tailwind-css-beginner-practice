@@ -39,7 +39,7 @@ const NavSm = () => {
 const NavLg = () => {
     return (
         <>
-        <div className="bg-gray-800 flex w-full text-slate-50 items-center justify-between py-2 px-20 h-20" >
+        <div className="bg-[#333545] flex w-full text-slate-50 items-center justify-between py-2 px-20 h-20" >
             <div className="bg-inherit flex items-center">
                     <img src={bookmyshow} alt="not successful" className="bg-inherit w-40 h-20 mr-2 cursor-grab" />
                     <span className="flex  bg-white rounded-sm">
@@ -66,6 +66,7 @@ const MovieNavbar = () => {
                 <div className="hidden md:flex lg:hidden"><NavSm/></div>
                 <div className="hidden lg:flex"><NavLg/></div>
         </nav>
+        {/* nice */}
         </>
     );
 };
