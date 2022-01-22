@@ -2,7 +2,9 @@ import React from "react";
 import { BiShareAlt} from "react-icons/bi";
 import { IoSearchOutline } from "react-icons/io5";
 import bookmyshow from "./bookmyshow-removebg-preview.png";
-import { FaSortDown,FaBars } from "react-icons/fa";
+import { FaSortDown, FaBars } from "react-icons/fa";
+import Reccommendations from "./Reccomandation-tab";
+
 
 const NavSm = () => {
     return (<>
@@ -65,7 +67,7 @@ const MovieNavbar = () => {
         <nav>
         <div className="md:hidden"><NavSm/></div>
                 <div className="hidden md:flex lg:hidden"><NavSm/></div>
-                <div className="hidden lg:flex"><NavLg/></div>
+                <div className="hidden lg:flex lg:flex-col"><NavLg/><Reccommendations/></div>
         </nav>
         {/* nice */}
         </>

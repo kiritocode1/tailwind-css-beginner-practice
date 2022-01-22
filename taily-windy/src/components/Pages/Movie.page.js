@@ -8,29 +8,29 @@ import ActorSlider from "../hero.carousal/movie.carousel/actor-carousel-componen
 const Movie = () => { 
     return (<>
         <MovieNavbar />
-        <div className="relative w-full h-[32rem]  ">
-            <div className="w-full h-full bg-gradient-to-r from-gray-900 via-transparent to-gray-900 text-slate-50 z-20 absolute flex justify-right gap-40">
-                <div className="w-[1000px] h-full bg-transparent flex  gap-2 pt-8 px-10">
-                    <div className="bg-black rounded-2xl h-[27rem] w-[16rem] flex flex-col items-center text-xs justify-center font-bold text-slate-50 gap-[2px] mt-2">
-                        <div className=" w-full h-[26rem] rounded-t-2xl relative flex items-center justify-center overflow-hidden">
-                            <img src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/pushpa--the-rise-et00129538-08-12-2021-01-21-46.jpg" alt="this is the movie " className="w-full h-full rounded-t-2xl" />
+        <div className="relative w-full h-[40rem] font-sans">
+            <div className="w-full h-full bg-gradient-to-r from-neutral-800 via-transparent to-neutral-800 text-slate-50 z-20 absolute flex   justify-right gap-40">
+                <div className="w-[1010px]  h-full bg-transparent flex  gap-2 pt-8 px-10">
+                    <div className="bg-black rounded-3xl h-[33rem] w-[24rem] flex flex-col items-center text-xs justify-center font-bold text-slate-50 gap-[2px] mt-2">
+                        <div className=" w-full h-[33rem] rounded-t-3xl relative flex items-center justify-center overflow-hidden">
+                            <img src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/pushpa--the-rise-et00129538-08-12-2021-01-21-46.jpg" alt="this is the movie " className="w-full h-full rounded-t-3xl" />
                         <div className=" absolute flex bg-black opacity-80 z-80 items-center justify-center rounded-full w-[85px] h-[20px] cursor-pointer text-md font-bold"> <BsFillPlayFill className="h-4 w-6"/><spam className=" text-slate-50  ">Trailers(6)</spam></div>
                         </div>
                         in cinemas</div>
                     
                     
-                    <div className="bg-transparent rounded-lg h-[25rem] w-[39rem] flex flex-col align-top px-6 gap-2 py-4 mt-6">
-                        <h3 className="text-[40px] font-bold text-slate-50">Pushpa-i hate tears </h3>
+                    <div className="bg-transparent rounded-lg h-[25rem] w-[45rem] flex flex-col align-top px-4 gap-2 py-6 mt-6">
+                        <h3 className="text-[45px] font-bold text-slate-50">Pushpa-i hate tears </h3>
                         <div className="flex gap-2 items-center">
                             <span className="text-2xl  flex  items-center gap-2 font-bold"><BsFillSuitHeartFill className="text-rose-500"/>87%</span>
                             <span className="flex items-center justify-right text-md font-bold">439.1k ratings<MdOutlineNavigateNext className="text-sm opacity-60"/></span>
                         </div>
-                        <div className="my-4 w-[28rem] h-[4.5rem] bg-[#333333] rounded-lg cursor-pointer flex items-center justify-between p-4">
+                        <div className="my-4 w-[30rem] h-[5.9rem] bg-[#333333] rounded-lg cursor-pointer flex items-center justify-between p-4">
                             <div className="flex flex-col">
-                                <h3 className="font-semibold text-lg">Add your ratings & review</h3>
+                                <h3 className="font-semibold text-xl">Add your ratings & review</h3>
                                 <h3 className="text-neutral-400 font-semibold">Your ratings matter</h3>
                             </div>
-                            <button className="bg-white w-[6rem] text-stone-700 h-10 rounded-lg text-lg font-semibold">Rate now</button>
+                            <button className="bg-white w-[6.9rem] text-stone-700 h-[3rem] rounded-xl text-lg font-bold">Rate now</button>
                         </div>
                     
                         <div className="flex gap-2">

@@ -11,7 +11,7 @@ const ActorSlider = () => {
     slidesToShow: 6,
     slidesToScroll: 4,
     arrows: true,
-    autoplay: true,
+        autoplay: true,
     };
     // const images = ["https://in.bmscdn.com/iedb/artist/images/website/poster/large/allu-arjun-125-03-10-2016-01-55-06.jpg",
     //     "https://in.bmscdn.com/iedb/artist/images/website/poster/large/rashmika-mandanna-1076783-28-12-2016-12-20-39.jpg",
@@ -63,7 +63,7 @@ const ActorSlider = () => {
     return (
         <>
             <hr className="pt-2 text-red-600"/>
-        <div className="text-3xl font-semibold"> Cast</div>
+        <div className="text-3xl font-semibold py-2 px-1"> Cast</div>
             <Slider {...settings} >
                 {/* {images.map((image) => (
                     <div className="w-full h-96">

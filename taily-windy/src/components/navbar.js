@@ -2,7 +2,9 @@ import React from "react";
 import {BiChevronRight} from "react-icons/bi";
 import { IoSearchOutline } from "react-icons/io5";
 import bookmyshow from "./bookmyshow-removebg-preview.png";
-import { FaSortDown,FaBars } from "react-icons/fa";
+import { FaSortDown, FaBars } from "react-icons/fa";
+import Reccommendations from "./Reccomandation-tab";
+
 
 const NavSm = () => {
     return (<>
@@ -24,7 +26,7 @@ const NavMd = () => {
         <>
             <div className="w-full bg-[#333545] flex text-slate-50 items-center justify-start p-6">
                 <div className="flex bg-white rounded-md w-full gap-3">
-                <IoSearchOutline className="bg-white text-slate-500 h-8 w-8  rounded-lg ml-1 pl-3"/>
+                <IoSearchOutline className="bg-white text-slate-500 h-8 w-8  rounded-lg ml-1 pl-3 "/> */}
                     <input placeholder="Search for Movies , shows , events , plays🎭 , Sports ⚽ and much more " type="search" className="w-full italic focus:border-blue-500 rounded-sm text-black h-[35px] pl-5 pb-[3px]" required/>
                 </div>
             </div>
@@ -58,7 +60,7 @@ const Navbar = () => {
         <nav>
         <div className="md:hidden"><NavSm/></div>
                 <div className="hidden md:flex lg:hidden"><NavMd/></div>
-                <div className="hidden lg:flex"><NavLg/></div>
+                <div className="hidden lg:flex lg:flex-col"><NavLg/><Reccommendations/></div>
         </nav>
         </>
     );
