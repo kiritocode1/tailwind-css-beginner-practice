@@ -4,6 +4,7 @@ import { BiShareAlt} from "react-icons/bi";
 import { BsFillPlayFill ,BsFillSuitHeartFill} from "react-icons/bs";
 // import {AiFillHeart} from "react-icons/ai"
 import { MdOutlineNavigateNext } from "react-icons/md";
+import ActorSlider from "../hero.carousal/movie.carousel/actor-carousel-component";
 const Movie = () => { 
     return (<>
         <MovieNavbar />
@@ -11,7 +12,7 @@ const Movie = () => {
             <div className="w-full h-full bg-gradient-to-r from-gray-900 via-transparent to-gray-900 text-slate-50 z-20 absolute flex justify-right gap-40">
                 <div className="w-[1000px] h-full bg-transparent flex  gap-2 pt-8 px-10">
                     <div className="bg-black rounded-2xl h-[27rem] w-[16rem] flex flex-col items-center text-xs justify-center font-bold text-slate-50 gap-[2px] mt-2">
-                        <div className=" w-full h-[26rem] rounded-t-2xl relative flex items-center justify-center">
+                        <div className=" w-full h-[26rem] rounded-t-2xl relative flex items-center justify-center overflow-hidden">
                             <img src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/pushpa--the-rise-et00129538-08-12-2021-01-21-46.jpg" alt="this is the movie " className="w-full h-full rounded-t-2xl" />
                         <div className=" absolute flex bg-black opacity-80 z-80 items-center justify-center rounded-full w-[85px] h-[20px] cursor-pointer text-md font-bold"> <BsFillPlayFill className="h-4 w-6"/><spam className=" text-slate-50  ">Trailers(6)</spam></div>
                         </div>
@@ -69,6 +70,7 @@ const Movie = () => {
             
             <img src="https://images.news18.com/ibnlive/uploads/2021/01/1611818353_pushpa-1.jpg" alt="jnkjfkj" className="w-full h-full z-10 absolute "/>
         </div>
+        <ActorSlider/>
     </>);
 };
 
