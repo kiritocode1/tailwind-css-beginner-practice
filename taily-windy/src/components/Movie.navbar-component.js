@@ -6,7 +6,6 @@ import { FaSortDown,FaBars } from "react-icons/fa";
 
 const NavSm = () => {
     return (<>
-        
         <div className="bg-slate-50 flex justify-between items-center w-full h-[67px] hover:rounded-b-sm border-b-4">
             <div className="  flex flex-wrap text-slate-500">
                 <h3 className="text-[#000000] px-4 text-2xl font-semibold  hover:underline decoration-fuchsia-700 hover:animate-pulse ">It All Starts Here!</h3>
@@ -39,6 +38,7 @@ const NavSm = () => {
 const NavLg = () => {
     return (
         <>
+            <div className="flex flex-col w-full">
         <div className="bg-[#333545] flex w-full text-slate-50 items-center justify-between py-2 px-20 h-20" >
             <div className="bg-inherit flex items-center">
                     <img src={bookmyshow} alt="not successful" className="bg-inherit w-40 h-20 mr-2 cursor-grab" />
@@ -51,6 +51,7 @@ const NavLg = () => {
                     <h6 className="text-md bold bg-inherit flex gap-1 text-slate-100 hover:animate-pulse  cursor-pointer hover:underline hover:decoration-sky-500">Mumbai<FaSortDown/></h6>
                     <button className="bg-[#F84464]  w-20  h-8  text-sm rounded-lg font-bold cursor-pointer ">Sign in</button>
                     <FaBars className="w-10 h-6 cursor-pointer"/>
+                </div>
                 </div>
             </div>
         </>
