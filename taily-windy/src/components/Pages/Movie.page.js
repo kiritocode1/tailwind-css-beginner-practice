@@ -54,7 +54,7 @@ const Movie = () => {
                             <h4>17 Dec,2021</h4>
                         </div>
                     
-                    <div className="mt-6"><button className="bg-[#F84464]  w-[13.9rem]  h-[3rem]  text-sm rounded-lg font-semibold cursor-pointer text-lg ">Book tickets</button></div>
+                    <div className="mt-6"><button className="bg-[#F84464]  w-[13.9rem]  h-[3rem]   rounded-lg font-semibold cursor-pointer text-lg ">Book tickets</button></div>
                     
                     
                     </div>
