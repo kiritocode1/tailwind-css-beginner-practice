@@ -65,7 +65,7 @@ const Movie = () => {
                 
                 
                 
-                <div className="flex w-100 h-20 relative items-center mt-6"><div className="absolute w-[115px] h-[3rem] flex text-md text-white justify-center items-center  gap-2 bg-black opacity-50 rounded-md font-semibold"><BiShareAlt className="w-8 h-6  z-60" />Share</div></div>
+                <div className="flex w-100 h-20 relative items-center mt-6"><div className="absolute w-[115px] h-[3rem] flex text-md text-white justify-center items-center  gap-2 bg-black opacity-50 rounded-md font-semibold"><BiShareAlt className="w-8 h-6  z-60 stroke-0 hover:stroke-2" />Share</div></div>
         </div>
             
             <img src="https://images.news18.com/ibnlive/uploads/2021/01/1611818353_pushpa-1.jpg" alt="jnkjfkj" className="w-full h-full z-10 absolute "/>
