@@ -3,7 +3,7 @@ import EntertainmentSlider from "../entertainment-component/entertainment-compon
 import Navbar from "../navbar";
 import HeroCarousel from "../hero.carousal/hero.carousal-component";
 import Premier from "../premier/premier-component";
-
+// import axios from "axios";
 
 
 
@@ -16,7 +16,15 @@ import Premier from "../premier/premier-component";
 
 
 const HomePage = () => { 
-
+    // const [PopularMovies, setPopularMovies] = useState([]);
+    // useEffect(() => { 
+    //     const requestPopularMovies = async () => {
+    //         const getPopularMovies = await axios.get("/movie/popular");
+    //         console.log({PopularMovies})
+    //         setPopularMovies(getPopularMovies.data.results);
+    //         };
+    //     requestPopularMovies();
+    // },[]);
     return (<>
         <div className="flex flex-col gap-9 ">
             <Navbar />
