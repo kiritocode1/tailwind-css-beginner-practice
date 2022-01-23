@@ -5,6 +5,32 @@ import { BsFillPlayFill ,BsFillSuitHeartFill} from "react-icons/bs";
 // import {AiFillHeart} from "react-icons/ai"
 import { MdOutlineNavigateNext } from "react-icons/md";
 import ActorSlider from "../hero.carousal/movie.carousel/actor-carousel-component";
+
+const launchRazorPay = () => {
+    let options = {
+        key: "rzp_test_8fDzj010ap6uwv",
+        amount: 10000,
+        currency: "INR",
+        name: "BMS CLONE",
+        description: "movie purchase",
+        image: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1490416068/snddxyieomgp4s7sj7bp.png",
+        handler: () => {
+            alert("payement done");
+        },
+        theme: { color: "#c4242d" }
+    };
+    let rzp = new window.Razorpay(options);
+    rzp.open();
+};
+
+
+
+
+
+
+
+
+
 const Movie = () => { 
     return (<>
         <MovieNavbar />
@@ -55,7 +81,7 @@ const Movie = () => {
                             <h4>17 Dec,2021</h4>
                         </div>
                     
-                    <div className="mt-6"><button className="bg-[#F84464]  w-[13.9rem]  h-[3rem]   rounded-lg font-semibold cursor-pointer text-lg ">Book tickets</button></div>
+                    <div className="mt-6"><button  onClick={launchRazorPay} className="bg-[#F84464]  w-[13.9rem]  h-[3rem]   rounded-lg font-semibold cursor-pointer text-lg ">Book tickets</button></div>
                     
                     
                     </div>
