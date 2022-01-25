@@ -28,7 +28,7 @@ const Premier = () => {
             setPremierImages(getPremierImage.data.results);
         };
         requestPremierImages();
-     },[]);
+     });
     // const PremierImages = [
     //     {
     //         src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00122526-xavthzuprr-portrait.jpg",
