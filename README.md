@@ -32,7 +32,7 @@ this is the tailwind practice i made for myself
 
 >> after : content:["./src/**/*.{js,jsx,ts,tsx}",]
 
->and then we do the changes to the ./src/index files basically remove everything and add the 3 things that arte right here
+>and then we do the changes to the ./src/index.css files basically remove everything and add the 3 things that arte right here
 
 >>```@tailwind base;```
 
