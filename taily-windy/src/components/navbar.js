@@ -40,7 +40,9 @@ const NavLg = () => {
                     <img src={bookmyshow} alt="not successful" className="bg-inherit w-40 h-20 mr-2 cursor-grab" />
                     <span className="flex  bg-white rounded-sm">
                     <IoSearchOutline className="bg-white text-slate-500 h-10 w-10 py-2 rounded-full ml-1 " />
-                    <input placeholder="Search for Movies , shows , events , plays🎭 , Sports ⚽ and much more " type="search" className="h-10 w-[600px] px-6 rounded-sm"/>
+                        <input placeholder="Search for Movies , shows , events , plays🎭 , Sports ⚽ and much more " type="search" className="h-10 w-[600px] px-6 rounded-sm focus:outline-none focus:text-gray-500 focus:
+                        italic
+                    "/>
                     </span>
                 </div>
                 <div className="bg-invisible flex gap-2 items-center">
